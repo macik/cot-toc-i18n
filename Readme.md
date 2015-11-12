@@ -2,6 +2,13 @@
 
 Renders contents tree for a given category.
 
+> **Note ** This extended version of original [«TOC» Plugin](https://github.com/trustmaster/cot-toc) by [Trustmaster](https://github.com/trustmaster).
+
+## New features
+
+* **I18n compatibility layer** — now plugin support «i18n» data if corresponding plugin installed. If support enabled (in Plugin configuration menu) all current locale translation data will be merged and available for output. It's possible to output locale flags with `{ROW_FLAG}` tag.
+* **Support all page and translation data fields** — not only `title` and `description`.
+
 ## Installation
 
 1. Download.

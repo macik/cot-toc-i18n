@@ -4,10 +4,10 @@
 Code=toc
 Name=Table Of Contents
 Description=Displays Table of contents of a given category
-Version=1.0.1
-Date=2012-06-04
+Version=1.1.3
+Date=2015-11-04
 Author=Trustmaster
-Copyright=&copy; Vladimir Sibirov 2012
+Copyright=&copy; Vladimir Sibirov & Cotonti team 2015
 Notes=
 SQL=
 Auth_guests=R
@@ -20,7 +20,8 @@ Requires_modules=page
 [BEGIN_COT_EXT_CONFIG]
 sort_field=03:string::page_title:Sort by field
 sort_way=04:select:desc,asc:asc:Sort order
-cache=14:radio::1:Enable cache
+cache_ttl=14:string::300:Cache TTL
+use_i18n=20:radio::1:Use localized titles and description if available
 [END_COT_EXT_CONFIG]
 ==================== */
 
