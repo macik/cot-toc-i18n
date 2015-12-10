@@ -140,7 +140,7 @@ function toc_display($t, $tpl, $item, $level, $number, $only_siblings = FALSE)
 	);
 	foreach ($item as $field => $data)
 	{
-		if (!is_array($data)) $row['ROW_'.strtoupper($field)] = htmlspecialchars($data);
+		if (!is_array($data)) $row['ROW_'.strtoupper($field)] = $data;
 	}
 	$t->assign($row);
 	$t->parse('LIST.ROW');
@@ -159,8 +159,8 @@ function toc_load_cat($code)
 		'type'  => 'cat',
 		'code'  => $code,
 		'url'   => cot_url('page', array('c' => $code)),
-		'title' => $scat['title'],
-		'desc'  => $scat['desc'],
+		'title' => trim(htmlentities($scat['title'])),
+		'desc'  => trim(htmlentities($scat['desc'])),
 		'count' => $scat['count'],
 		'items'  => array()
 	);
