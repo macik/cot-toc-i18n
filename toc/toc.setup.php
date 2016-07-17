@@ -4,8 +4,8 @@
 Code=toc
 Name=Table Of Contents
 Description=Displays Table of contents of a given category
-Version=1.1.4
-Date=2015-12-10
+Version=1.1.5
+Date=2016-07-10
 Author=Trustmaster
 Copyright=&copy; Vladimir Sibirov & Cotonti team 2015
 Notes=
