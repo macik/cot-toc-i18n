@@ -2,13 +2,13 @@
 /* ====================
 [BEGIN_COT_EXT]
 Code=toc
-Name=Table Of Contents
+Name=Table Of Contents (extended)
 Description=Displays Table of contents of a given category
-Version=1.1.5
-Date=2016-07-10
+Version=1.1.6
+Date=2017-09-16
 Author=Trustmaster
 Copyright=&copy; Vladimir Sibirov & Cotonti team 2015
-Notes=
+Notes=This is extended version of original <a href="https://github.com/trustmaster/cot-toc">«TOC» Plugin]</a> by Trustmaster
 SQL=
 Auth_guests=R
 Lock_guests=W12345A

@@ -2,7 +2,7 @@
 
 Renders contents tree for a given category.
 
-> **Note ** This extended version of original [«TOC» Plugin](https://github.com/trustmaster/cot-toc) by [Trustmaster](https://github.com/trustmaster).
+> **Note ** This is extended version of original [«TOC» Plugin](https://github.com/trustmaster/cot-toc) by [Trustmaster](https://github.com/trustmaster).
 
 ## New features
 
